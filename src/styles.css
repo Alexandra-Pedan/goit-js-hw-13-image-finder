@@ -28,7 +28,6 @@ input {
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   list-style: none;
   width: 1200px;
   padding: 0px;
@@ -43,11 +42,12 @@ input {
 }
 
 .gallery img {
-  width: 100%;
-  height: auto;
+  width: 300px;
+  height: 200px;
 }
 
 .stats {
   display: flex;
   justify-content: center;
+  justify-content: space-between;
 }
